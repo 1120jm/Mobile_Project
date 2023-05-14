@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">School_Homepage</string>
+    <string name="app_name">android_Project</string>
+    <string name="text_hak">학번</string>
+    <string name="login_btn_text">로그인</string>
+    <string name="text_pass">비밀번호</string>
+    <string name="auto_text_main">자동로그인</string>
 </resources>
