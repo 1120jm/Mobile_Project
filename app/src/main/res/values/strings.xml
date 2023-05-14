@@ -9,4 +9,8 @@
     <string name="made_by_">MADE BY.안티프레조</string>
     <string name="loginT_fail">학번 또는 비밀번호가 일치하지 않습니다.</string>
     <string name="loginT_success">성공</string>
+    <string name="main_title_string">명지전문대학</string>
+    <string name="top_info">양재민(2019081089)</string>
+    <string name="top_logout_btn">로그아웃</string>
+    <string name="top_passwd_change_btn">비밀번호 변경</string>
 </resources>
