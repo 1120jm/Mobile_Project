@@ -100,7 +100,7 @@
         android:layout_marginTop="1536px"
         android:background="@drawable/login_btn_design"
         android:text="@string/login_btn_text"
-        android:Color="#999999" />
+        android:textColor="#999999" />
 
     <android.widget.Button
         android:id="@+id/text_find_hak"
@@ -110,7 +110,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="358px"
         android:layout_marginTop="1679px"
-        android:background="00ff0000"
+        android:background="#00ff0000"
         android:gravity="center|center_vertical"
         android:text="@string/find_text"
         android:textAppearance="@style/find_text" />
@@ -123,7 +123,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="595px"
         android:layout_marginTop="1679px"
-        android:background="00ff0000"
+        android:background="#00ff0000"
         android:gravity="center|center_vertical"
         android:text="@string/find_pass"
         android:textAppearance="@style/find_text" />
@@ -148,5 +148,17 @@
         android:text="@string/made_by_"
         android:textAppearance="@style/made_by_"
         android:gravity="center_horizontal|center_vertical"
+        />
+    <TextView
+        android:id="@+id/login_fail_text"
+        android:layout_width="626px"
+        android:layout_height="51px"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="143px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1371px"
+        android:text="@string/loginT_fail"
+        android:textAppearance="@style/login_fail_s"
+        android:gravity="center_vertical"
         />
 </RelativeLayout>
