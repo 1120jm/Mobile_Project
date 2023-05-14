@@ -101,6 +101,7 @@
         android:background="@drawable/login_btn_design"
         android:text="@string/login_btn_text"
         android:textColor="#999999" />
+        android:Color="#999999" />
 
     <android.widget.Button
         android:id="@+id/text_find_hak"
