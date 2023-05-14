@@ -7,4 +7,6 @@
     <string name="find_text">학번 찾기</string>
     <string name="find_pass">비밀번호 찾기</string>
     <string name="made_by_">MADE BY.안티프레조</string>
+    <string name="loginT_fail">학번 또는 비밀번호가 일치하지 않습니다.</string>
+    <string name="loginT_success">성공</string>
 </resources>
