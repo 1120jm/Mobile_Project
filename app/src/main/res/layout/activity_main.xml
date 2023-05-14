@@ -11,11 +11,10 @@
         android:layout_width="490px"
         android:layout_height="505px"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="293px"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="379px"
-        android:background="@drawable/mjc_logo"
-        />
+        android:layout_marginLeft="293px"
+        android:layout_marginTop="369px"
+        android:background="@drawable/mjc_logo" />
 
     <TextView
         android:id="@+id/haktext"
@@ -76,7 +75,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="143px"
-        android:layout_marginTop="1448px" />
+        android:layout_marginTop="1475px"
+        android:background="#999999" />
 
     <TextView
         android:id="@+id/text_autologin"
@@ -85,7 +85,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="192.25px"
-        android:layout_marginTop="1442px"
+        android:layout_marginTop="1470px"
         android:gravity="center_vertical"
         android:text="@string/auto_text_main"
         android:textAppearance="@style/main_auto" />
@@ -97,8 +97,56 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="143px"
-        android:layout_marginTop="580dp"
+        android:layout_marginTop="1536px"
         android:background="@drawable/login_btn_design"
         android:text="@string/login_btn_text"
-        android:textColor="#999999" />
+        android:Color="#999999" />
+
+    <android.widget.Button
+        android:id="@+id/text_find_hak"
+        android:layout_width="50dp"
+        android:layout_height="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="358px"
+        android:layout_marginTop="1679px"
+        android:background="00ff0000"
+        android:gravity="center|center_vertical"
+        android:text="@string/find_text"
+        android:textAppearance="@style/find_text" />
+
+    <android.widget.Button
+        android:id="@+id/text_find_pas"
+        android:layout_width="75dp"
+        android:layout_height="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="595px"
+        android:layout_marginTop="1679px"
+        android:background="00ff0000"
+        android:gravity="center|center_vertical"
+        android:text="@string/find_pass"
+        android:textAppearance="@style/find_text" />
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="1px"
+        android:layout_height="45px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="540px"
+        android:layout_marginTop="1681px"
+        android:background="@drawable/line1_1" />
+    <TextView
+        android:id="@+id/made_by_"
+        android:layout_width="824px"
+        android:layout_height="81px"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="128px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="2094px"
+        android:text="@string/made_by_"
+        android:textAppearance="@style/made_by_"
+        android:gravity="center_horizontal|center_vertical"
+        />
 </RelativeLayout>
