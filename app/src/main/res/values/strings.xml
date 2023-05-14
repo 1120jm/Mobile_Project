@@ -4,4 +4,7 @@
     <string name="login_btn_text">로그인</string>
     <string name="text_pass">비밀번호</string>
     <string name="auto_text_main">자동로그인</string>
+    <string name="find_text">학번 찾기</string>
+    <string name="find_pass">비밀번호 찾기</string>
+    <string name="made_by_">MADE BY.안티프레조</string>
 </resources>
