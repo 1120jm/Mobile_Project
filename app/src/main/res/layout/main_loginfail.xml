@@ -93,7 +93,7 @@
         android:textColor="#ffffff" />
 
     <android.widget.Button
-        android:id="@+id/submit_btn"
+        android:id="@+id/cancel_btn"
         android:layout_width="427.89px"
         android:layout_height="105.87px"
         android:layout_alignParentLeft="true"
