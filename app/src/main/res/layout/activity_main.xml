@@ -67,17 +67,19 @@
         android:hint="비밀번호를 입력해주세요."
         android:paddingLeft="27px"
         android:textColor="@color/black"
-        android:textSize="36px" />
+        android:textSize="36px"
+        android:inputType="textPassword"/>
 
     <CheckBox
         android:id="@+id/check_login"
-        android:layout_width="37.47px"
-        android:layout_height="37.47px"
+        android:layout_width="42px"
+        android:layout_height="42px"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="143px"
         android:layout_marginTop="1475px"
-        android:background="#999999" />
+        android:background="@drawable/checkbox"
+        android:button="@null" />
 
     <TextView
         android:id="@+id/text_autologin"
@@ -163,7 +165,13 @@
         android:layout_marginTop="1387px"
         android:gravity="center_vertical"
         android:text="@string/loginT_fail"
-        android:textAppearance="@style/login_fail_s"
+        android:textAppearance="@style/login_fail_s" />
 
-        />
+    <android.widget.Button
+        android:id="@+id/auto_login_fill"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginLeft="143px"
+        android:layout_marginTop="1465px"
+        android:background="#00ff0000" />
 </RelativeLayout>
