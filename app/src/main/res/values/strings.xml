@@ -16,4 +16,7 @@
     <string name="find_id_good_s">2019081070</string>
     <string name="find_id_bad_s">이름 또는 생년월일을</string>
     <string name="find_id_bad_s1">정확하게 입력해주세요.</string>
+    <string name="find_pass_bad1">이름 또는 학번을</string>
+    <string name="change_pass_g">변경이 완료되었습니다.</string>
+    <string name="notsame_pass">올바른 비밀번호를 입력하세요.</string>
 </resources>

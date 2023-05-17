@@ -8,7 +8,7 @@
     >
 
     <RelativeLayout
-        android:id="@+id/login_fail_p"
+        android:id="@+id/change_password"
         android:layout_width="910px"
         android:layout_height="680px"
         android:background="@drawable/membership"
@@ -46,11 +46,11 @@
             android:layout_marginLeft="80px"
             android:layout_marginTop="140px"
             android:gravity="center_vertical"
-            android:text="이름"
+            android:text="새로운 비밀번호"
             android:textAppearance="@style/some_id" />
 
         <EditText
-            android:id="@+id/edit_id_p"
+            android:id="@+id/ch_pass"
             android:layout_width="689.34px"
             android:layout_height="85.84px"
             android:layout_alignParentLeft="true"
@@ -59,7 +59,7 @@
             android:layout_marginTop="215px"
             android:background="@drawable/edit_id"
             android:elevation="10dp"
-            android:hint="이름을 입력하세요"
+            android:hint="비밀번호를 입력하세요."
             android:paddingLeft="27px"
             android:textSize="36px" />
 
@@ -72,11 +72,11 @@
             android:layout_marginLeft="80px"
             android:layout_marginTop="325px"
             android:gravity="center_vertical"
-            android:text="학번"
+            android:text="비밀번호 확인"
             android:textAppearance="@style/some_id" />
 
         <EditText
-            android:id="@+id/edit_birth_p"
+            android:id="@+id/ch_pass_check"
             android:layout_width="689.34px"
             android:layout_height="85.84px"
             android:layout_alignParentLeft="true"
@@ -85,12 +85,12 @@
             android:layout_marginTop="390px"
             android:background="@drawable/edit_id"
             android:elevation="10dp"
-            android:hint="생년월일을 입력하세요"
+            android:hint="같은 비밀번호를 입력하세요."
             android:paddingLeft="27px"
             android:textSize="36px" />
 
         <android.widget.Button
-            android:id="@+id/submit_btn_p"
+            android:id="@+id/submit_btn_c"
             android:layout_width="455px"
             android:layout_height="105.87px"
             android:layout_alignParentLeft="true"
@@ -102,7 +102,7 @@
             android:textColor="#ffffff" />
 
         <android.widget.Button
-            android:id="@+id/cancel_btn_p"
+            android:id="@+id/cancel_btn_c"
             android:layout_width="455px"
             android:layout_height="105.87px"
             android:layout_alignParentLeft="true"
