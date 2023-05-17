@@ -31,6 +31,8 @@
         android:textAppearance="@style/main_title_styles"
         android:textStyle="bold" />
 
+
+    //회원정보
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/main_top_view"
         android:layout_width="932px"
@@ -87,6 +89,8 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+
+    //공지사항
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/announcement_view"
         android:layout_width="932px"
@@ -113,15 +117,15 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <View
-            android:id="@+id/draw_line1"
+            android:id="@+id/ann_line1"
             android:layout_width="837px"
             android:layout_height="5px"
-            android:layout_marginStart="47px"
+            android:layout_marginStart="45px"
             android:layout_marginTop="76px"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
             android:background="@drawable/broken_line"
-            android:layerType="software"/>
+            android:layerType="software"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/first_ann"
@@ -129,14 +133,170 @@
             android:layout_height="75px"
             android:layout_marginStart="45px"
             android:layout_marginTop="77px"
+            android:gravity="center_vertical"
             android:text="[혁신] 2023학년도 1학기 학습역량 진단검사 실시 안내(~5/5)"
-            android:layout_gravity="center"
             android:textAppearance="@style/ann_text"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <View
+            android:id="@+id/ann_line12"
+            android:layout_width="837px"
+            android:layout_height="5px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="150.93px"
+            android:background="@drawable/main_line"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/second_ann"
+            android:layout_width="871px"
+            android:layout_height="75px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="155px"
+            android:gravity="center_vertical"
+            android:text="미래융합학부 사무공간 리모델링으로 인한 사무실 이전 안내"
+            android:textAppearance="@style/ann_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <View
+            android:id="@+id/ann_line3"
+            android:layout_width="837px"
+            android:layout_height="5px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="227.92px"
+            android:background="@drawable/main_line"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/third_ann"
+            android:layout_width="871px"
+            android:layout_height="75px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="230px"
+            android:gravity="center_vertical"
+            android:text="[혁신]2023학년도 학생역량이력관리시스템(Smart Care Syst..."
+            android:textAppearance="@style/ann_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/ann_line4"
+            android:layout_width="837px"
+            android:layout_height="5px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="304.92px"
+            android:background="@drawable/main_line"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
+
+    //학사일정
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/calendar_view"
+        android:layout_width="932px"
+        android:layout_height="347px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="74px"
+        android:layout_marginTop="961px"
+        android:background="@drawable/main_top_view_background"
+        android:elevation="30dp">
+
+        <TextView
+            android:id="@+id/cal_text"
+            android:layout_width="226px"
+            android:layout_height="33px"
+            android:layout_marginStart="109px"
+            android:layout_marginTop="30px"
+            android:gravity="bottom"
+            android:text="학사일정"
+            android:textAppearance="@style/top_passwd_change_btn"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/cal_line1"
+            android:layout_width="837px"
+            android:layout_height="5px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="76px"
+            android:background="@drawable/broken_line"
+            android:layerType="software"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/first_cal"
+            android:layout_width="871px"
+            android:layout_height="75px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="77px"
+            android:gravity="center_vertical"
+            android:text="2023.04.10~2023.04.10  교직원 부활절예배"
+            android:textAppearance="@style/ann_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/cal_line2"
+            android:layout_width="837px"
+            android:layout_height="5px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="150.93px"
+            android:background="@drawable/main_line"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/second_cal"
+            android:layout_width="871px"
+            android:layout_height="75px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="155px"
+            android:gravity="center_vertical"
+            android:text="2023.04.13~2023.04.19  학생 부활절예배"
+            android:textAppearance="@style/ann_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <View
+            android:id="@+id/cal_line3"
+            android:layout_width="837px"
+            android:layout_height="5px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="227.92px"
+            android:background="@drawable/main_line"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/third_cal"
+            android:layout_width="871px"
+            android:layout_height="75px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="230px"
+            android:gravity="center_vertical"
+            android:text="2023.04.13~2023.04.19  중간 강의평가"
+            android:textAppearance="@style/ann_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/cal_line4"
+            android:layout_width="837px"
+            android:layout_height="5px"
+            android:layout_marginStart="45px"
+            android:layout_marginTop="304.92px"
+            android:background="@drawable/main_line"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
