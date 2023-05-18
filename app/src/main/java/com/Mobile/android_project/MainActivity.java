@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
                 String login_hak = login_et.getText().toString();
                 String login_pass = pass_et.getText().toString();
                 if (name.equals(login_hak) && password.equals(login_pass)) {
-                    Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                    Intent intent = new Intent(getApplicationContext(), ScheduleActivity.class);
                     startActivity(intent);
                 } else {
                     failText.setVisibility(View.VISIBLE);
