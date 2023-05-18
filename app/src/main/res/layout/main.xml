@@ -132,7 +132,7 @@
             android:layout_height="50px"
             android:layout_marginStart="55px"
             android:layout_marginTop="18px"
-            android:background="00ff00"
+            android:background="#00ff0000"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
@@ -176,7 +176,7 @@
             android:layout_height="75px"
             android:layout_marginStart="45px"
             android:layout_marginTop="77px"
-            android:background="00ff00"
+            android:background="#00ff0000"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
@@ -209,7 +209,7 @@
             android:layout_height="75px"
             android:layout_marginStart="45px"
             android:layout_marginTop="155px"
-            android:background="00ff00"
+            android:background="#00ff0000"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
@@ -242,7 +242,7 @@
             android:layout_height="75px"
             android:layout_marginStart="45px"
             android:layout_marginTop="230px"
-            android:background="00ff00"
+            android:background="#00ff0000"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
@@ -295,7 +295,7 @@
             android:layout_height="50px"
             android:layout_marginStart="55px"
             android:layout_marginTop="18px"
-            android:background="00ff00"
+            android:background="#00ff0000"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
@@ -339,7 +339,7 @@
             android:layout_height="75px"
             android:layout_marginStart="45px"
             android:layout_marginTop="77px"
-            android:background="00ff00"
+            android:background="#00ff0000"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
@@ -372,7 +372,7 @@
             android:layout_height="75px"
             android:layout_marginStart="45px"
             android:layout_marginTop="155px"
-            android:background="00ff00"
+            android:background="#00ff0000"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
@@ -405,7 +405,7 @@
             android:layout_height="75px"
             android:layout_marginStart="45px"
             android:layout_marginTop="230px"
-            android:background="00ff00"
+            android:background="#00ff0000"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
