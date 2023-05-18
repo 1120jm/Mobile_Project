@@ -6,17 +6,22 @@
         <entry key="..\:/github/Mobile_Project/app/src/main/res/drawable-v24/check_login.xml" value="0.2105" />
         <entry key="..\:/github/Mobile_Project/app/src/main/res/drawable-v24/edit_id.xml" value="0.2105" />
         <entry key="..\:/github/Mobile_Project/app/src/main/res/drawable-v24/main_login_test.xml" value="0.167" />
+        <entry key="..\:/github/Mobile_Project/app/src/main/res/drawable/checkbox.xml" value="0.1925" />
         <entry key="..\:/github/Mobile_Project/app/src/main/res/drawable/find_hak.xml" value="0.2105" />
         <entry key="..\:/github/Mobile_Project/app/src/main/res/drawable/line1_1.xml" value="0.2105" />
         <entry key="..\:/github/Mobile_Project/app/src/main/res/drawable/line_1.xml" value="0.1845" />
         <entry key="..\:/github/Mobile_Project/app/src/main/res/drawable/login_btn_design.xml" value="0.2105" />
+        <entry key="..\:/github/Mobile_Project/app/src/main/res/drawable/login_btn_enable.xml" value="0.1925" />
         <entry key="..\:/github/Mobile_Project/app/src/main/res/drawable/made_by_.xml" value="0.267" />
         <entry key="..\:/github/Mobile_Project/app/src/main/res/drawable/member.xml" value="0.1845" />
         <entry key="..\:/github/Mobile_Project/app/src/main/res/drawable/membership.xml" value="0.1535" />
         <entry key="..\:/github/Mobile_Project/app/src/main/res/font/font_noto1.xml" value="0.35648148148148145" />
         <entry key="..\:/github/Mobile_Project/app/src/main/res/font/notosans.xml" value="0.35648148148148145" />
-        <entry key="..\:/github/Mobile_Project/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/github/Mobile_Project/app/src/main/res/layout/findnumber.xml" value="0.26902173913043476" />
+        <entry key="..\:/github/Mobile_Project/app/src/main/res/layout/activity_main.xml" value="0.7393939393939394" />
+        <entry key="..\:/github/Mobile_Project/app/src/main/res/layout/findnum_bad.xml" value="0.6" />
+        <entry key="..\:/github/Mobile_Project/app/src/main/res/layout/findnum_good.xml" value="0.4" />
+        <entry key="..\:/github/Mobile_Project/app/src/main/res/layout/findnumber.xml" value="0.6" />
+        <entry key="..\:/github/Mobile_Project/app/src/main/res/layout/findpass.xml" value="0.25087719298245614" />
         <entry key="..\:/github/Mobile_Project/app/src/main/res/layout/main.xml" value="0.2509057971014493" />
         <entry key="..\:/github/Mobile_Project/app/src/main/res/layout/main_loginfail.xml" value="0.264" />
         <entry key="..\:/github/school_homepage/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.193" />

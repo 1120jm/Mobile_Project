@@ -8,7 +8,7 @@
     >
 
     <RelativeLayout
-        android:id="@+id/login_fail"
+        android:id="@+id/login_fail_p"
         android:layout_width="910px"
         android:layout_height="680px"
         android:background="@drawable/membership"
@@ -16,7 +16,7 @@
 
 
         <TextView
-            android:id="@+id/text_find_hak"
+            android:id="@+id/text_find_hak_p"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
@@ -24,11 +24,11 @@
             android:layout_marginLeft="133dp"
             android:layout_marginTop="11dp"
             android:gravity="center_horizontal|center_vertical"
-            android:text="학번 찾기"
+            android:text="비밀번호 찾기"
             android:textAppearance="@style/some_id" />
 
         <View
-            android:id="@+id/line_1"
+            android:id="@+id/line_1_p"
             android:layout_width="800px"
             android:layout_height="1dp"
             android:layout_alignParentLeft="true"
@@ -38,7 +38,7 @@
             android:background="@drawable/line_1" />
 
         <TextView
-            android:id="@+id/find_id"
+            android:id="@+id/find_id_p"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
@@ -50,13 +50,13 @@
             android:textAppearance="@style/some_id" />
 
         <EditText
-            android:id="@+id/edit_id"
+            android:id="@+id/edit_id_p"
             android:layout_width="689.34px"
             android:layout_height="85.84px"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:layout_marginLeft="29dp"
-            android:layout_marginTop="79dp"
+            android:layout_marginLeft="80px"
+            android:layout_marginTop="215px"
             android:background="@drawable/edit_id"
             android:elevation="10dp"
             android:hint="이름을 입력하세요"
@@ -64,7 +64,7 @@
             android:textSize="36px" />
 
         <TextView
-            android:id="@+id/find_birth"
+            android:id="@+id/find_pass_p"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
@@ -72,11 +72,11 @@
             android:layout_marginLeft="80px"
             android:layout_marginTop="325px"
             android:gravity="center_vertical"
-            android:text="생년월일"
+            android:text="학번"
             android:textAppearance="@style/some_id" />
 
         <EditText
-            android:id="@+id/edit_birth"
+            android:id="@+id/edit_birth_p"
             android:layout_width="689.34px"
             android:layout_height="85.84px"
             android:layout_alignParentLeft="true"
@@ -90,7 +90,7 @@
             android:textSize="36px" />
 
         <android.widget.Button
-            android:id="@+id/submit_btn"
+            android:id="@+id/submit_btn_p"
             android:layout_width="455px"
             android:layout_height="105.87px"
             android:layout_alignParentLeft="true"
@@ -102,7 +102,7 @@
             android:textColor="#ffffff" />
 
         <android.widget.Button
-            android:id="@+id/cancel_btn"
+            android:id="@+id/cancel_btn_p"
             android:layout_width="455px"
             android:layout_height="105.87px"
             android:layout_alignParentLeft="true"
@@ -112,18 +112,6 @@
             android:background="#ffffff"
             android:text="취소"
             android:textColor="#000000" />
-
-        <TextView
-            android:id="@+id/donFind_num"
-            android:layout_width="563px"
-            android:layout_height="36px"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginLeft="80px"
-            android:layout_marginTop="500px"
-            android:gravity="center_vertical"
-            android:text="이름과 생년월일을 작성하면 확인 버튼이 활성화 됩니다."
-            android:textAppearance="@style/donFind_num_st" />
 
     </RelativeLayout>
 </RelativeLayout>
