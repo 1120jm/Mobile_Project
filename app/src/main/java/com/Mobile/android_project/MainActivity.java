@@ -166,7 +166,7 @@ public class MainActivity extends AppCompatActivity {
                         findDialognum_b.dismiss();// 다이얼로그 닫기
                     }
                 });
-                //--------------------------취소 버튼-----------------------------
+                //--------------------------취소 버튼------------------------------
                 Button noBtn = findDialog.findViewById(R.id.cancel_btn);
                 noBtn.setOnClickListener(new View.OnClickListener() {
                     @Override
