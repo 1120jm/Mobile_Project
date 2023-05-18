@@ -33,9 +33,8 @@
         android:textStyle="bold" />
 
 
-    //-------------------
-    //회원정보
-    //-------------------
+
+    //----------------------회원정보----------------------
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -108,9 +107,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-    //---------------
-    //공지사항
-    //---------------
+    //----------------------공지사항----------------------
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -272,9 +269,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-    //--------------------
-    //학사일정
-    //--------------------
+    //----------------------학사일정----------------------
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -435,9 +430,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-    //------------------
-    //바로가기 아이콘
-    //------------------
+    //----------------------바로가기 아이콘----------------------
 
 
     <Button
@@ -483,9 +476,7 @@
         app:backgroundTint="#F6F8FF" />
 
 
-    //------------------
-    //교내식당
-    //------------------
+    //----------------------교내식당----------------------
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
