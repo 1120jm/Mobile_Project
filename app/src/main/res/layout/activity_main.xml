@@ -65,10 +65,10 @@
         android:layout_marginRight="54dp"
         android:background="@drawable/edit_id"
         android:hint="비밀번호를 입력해주세요."
+        android:inputType="textPassword"
         android:paddingLeft="27px"
         android:textColor="@color/black"
-        android:textSize="36px"
-        android:inputType="textPassword"/>
+        android:textSize="36px" />
 
     <CheckBox
         android:id="@+id/check_login"

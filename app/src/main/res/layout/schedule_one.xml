@@ -67,16 +67,16 @@
         android:textAppearance="@style/date_sche_text"
         android:gravity="center_horizontal|center_vertical"
         />
+
     <android.widget.Button
         android:id="@+id/right_btn_sche"
         android:layout_width="44px"
         android:layout_height="44px"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="347px"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="347px"
         android:layout_marginTop="230px"
-        android:background="@drawable/right_btn"
-        />
+        android:background="@drawable/right_btn" />
 
     <TextView
         android:id="@+id/march_text"
