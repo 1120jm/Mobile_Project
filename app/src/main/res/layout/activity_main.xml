@@ -11,7 +11,7 @@
         android:id="@+id/logo"
         android:layout_width="490px"
         android:layout_height="505px"
-        android:layout_alignParentLeft="true "
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="293px"
         android:layout_marginTop="369px"
