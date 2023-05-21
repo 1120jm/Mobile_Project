@@ -237,19 +237,19 @@
                 android:layout_alignParentTop="true"
                 android:layout_marginLeft="73px"
                 android:layout_marginTop="15px"
-                android:background="@drawable/left_btn" />
+                android:background="@drawable/left_btn" />-
+
             <TextView
                 android:id="@+id/date_text_han_two"
                 android:layout_width="206px"
                 android:layout_height="43px"
                 android:layout_alignParentLeft="true"
-                android:layout_marginLeft="129px"
                 android:layout_alignParentTop="true"
+                android:layout_marginLeft="129px"
                 android:layout_marginTop="15px"
-                android:text="2023학년 1학기"
-                android:textAppearance="@style/date_sche_text"
                 android:gravity="center_horizontal|center_vertical"
-                />
+                android:text="2023학년 2학기"
+                android:textAppearance="@style/date_sche_text" />
 
             <android.widget.Button
                 android:id="@+id/right_btn_sche_two"
@@ -424,7 +424,7 @@
 
     <TextView
         android:id="@+id/month_text"
-        android:layout_width="75px"
+        android:layout_width="90px"
         android:layout_height="54px"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
@@ -451,7 +451,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="117px"
-        android:layout_marginTop="376px"
+        android:layout_marginTop="400px"
         android:gravity="top"
         android:lineSpacingExtra="9px"
         android:text="2023.02.28~2023.03.02 신입생 수강신청"

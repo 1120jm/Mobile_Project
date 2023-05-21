@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="units">
+        ...
+        <item>계란</item>
+        <item>계란 노른자</item>
+        <item>계란 흰자</item>
+        ...
+    </string-array>
+</resources>
