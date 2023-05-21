@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.telecom.Call;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
@@ -16,6 +17,7 @@ public class MainScreen_Activity extends AppCompatActivity {
     Dialog change_password_success;
     Button cal_title_btn;
     Button logout_btn;
+    Button call_btn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +34,16 @@ public class MainScreen_Activity extends AppCompatActivity {
         change_password_success = new Dialog(MainScreen_Activity.this);
         change_password_success.requestWindowFeature(Window.FEATURE_NO_TITLE);
         change_password_success.setContentView(R.layout.main_change_password);
+        call_btn = (Button) findViewById(R.id.call_btn);
+        call_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), CallActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(intent);
+            }
+        });
+
         logout_btn = (Button) findViewById(R.id.logout_btn);
         logout_btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,6 +61,7 @@ public class MainScreen_Activity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), ScheduleActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);
+                System.out.println("----------------------------------------");
 
             }
         });
