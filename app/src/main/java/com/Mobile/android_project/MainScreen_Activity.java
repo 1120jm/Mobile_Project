@@ -3,6 +3,7 @@ package com.Mobile.android_project;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Dialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
@@ -13,8 +14,8 @@ import android.widget.TextView;
 public class MainScreen_Activity extends AppCompatActivity {
     Dialog change_password;
     Dialog change_password_success;
-
-
+    Button cal_title_btn;
+    Button logout_btn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,8 +32,27 @@ public class MainScreen_Activity extends AppCompatActivity {
         change_password_success = new Dialog(MainScreen_Activity.this);
         change_password_success.requestWindowFeature(Window.FEATURE_NO_TITLE);
         change_password_success.setContentView(R.layout.main_change_password);
+        logout_btn = (Button) findViewById(R.id.logout_btn);
+        logout_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(intent);
 
-        warning_text.setVisibility(View.INVISIBLE);
+            }
+        });
+        cal_title_btn = (Button) findViewById(R.id.cal_title_btn);
+        cal_title_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), ScheduleActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(intent);
+
+            }
+        });
+        //warning_text.setVisibility(View.INVISIBLE);
 
         change_pass_btn.setOnClickListener(new View.OnClickListener() {
             @Override
