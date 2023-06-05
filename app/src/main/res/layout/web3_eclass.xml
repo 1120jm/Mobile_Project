@@ -7,7 +7,7 @@
     android:clipToOutline="true">
 
     <android.widget.Button
-        android:id="@+id/back_btn_han"
+        android:id="@+id/back_btn_web3"
         android:layout_width="79px"
         android:layout_height="117px"
         android:layout_alignParentLeft="true"
@@ -17,8 +17,8 @@
         android:background="@drawable/back_logo"/>
 
     <TextView
-        android:id="@+id/https_www_m"
-        android:text="e-campus"
+        android:id="@+id/text_web3"
+        android:text="E-class"
         android:layout_width="590px"
         android:layout_height="97px"
         android:layout_alignParentLeft="true"
@@ -30,7 +30,7 @@
         />
 
     <WebView
-        android:id="@+id/mjc_webview"
+        android:id="@+id/webview_web3"
         android:layout_width="1080px"
         android:layout_height="1799px"
         android:layout_alignParentLeft="true"

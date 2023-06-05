@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.Mobile.android_project">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,8 +11,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.School_Homepage">
+
         <activity
             android:name=".MainScreen_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".CallActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
@@ -21,9 +27,42 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ScheduleActivity">
-
-        </activity>
+        <activity android:name=".ScheduleActivity"></activity>
+        <activity
+            android:name=".WebsiteActivity"
+            android:exported="true" />
+        <activity
+            android:name=".WebviewActivity"
+            android:exported="true"
+            android:usesCleartextTraffic="true" />
+        <activity
+            android:name=".WebviewActivity2"
+            android:exported="true"
+            android:usesCleartextTraffic="true" />
+        <activity
+            android:name=".WebviewActivity3"
+            android:exported="true"
+            android:usesCleartextTraffic="true" />
+        <activity
+            android:name=".WebviewActivity4"
+            android:exported="true"
+            android:usesCleartextTraffic="true" />
+        <activity
+            android:name=".WebviewActivity5"
+            android:exported="true"
+            android:usesCleartextTraffic="true" />
+        <activity
+            android:name=".WebviewActivity6"
+            android:exported="true"
+            android:usesCleartextTraffic="true" />
+        <activity
+            android:name=".WebviewActivity7"
+            android:exported="true"
+            android:usesCleartextTraffic="true" />
+        <activity
+            android:name=".WebviewActivity8"
+            android:exported="true"
+            android:usesCleartextTraffic="true" />
     </application>
 
 </manifest>
