@@ -6,7 +6,7 @@
     android:clipToOutline="true">
 
     <android.widget.Button
-        android:id="@+id/back_btn_han"
+        android:id="@+id/back_btn_sin"
         android:layout_width="79px"
         android:layout_height="117px"
         android:layout_alignParentLeft="true"
